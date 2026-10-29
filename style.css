@@ -60,34 +60,33 @@
     z-index: 10;
 }
 
-.restaurant-info {
+.burgerhouse {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100%;
-    padding: 80px 20px 60px;
+    padding: 90px 20px 60px;
 }
 
-.burgerhouse {
+.burgerhouse-title {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-.burgerhouse h1 {
-    font-size: 5rem;
-    font-weight: 800;
+.burgerhouse-title h1 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
     line-height: 1.2;
     color: #333333;
     margin: 0;
-    font-family: 'Palanquin Dark';
-    font-weight: bold;
 }
 
-.burgerhouse h1 span {
+.burgerhouse-title h1 span {
     color: rgba(231, 108, 31, 1);
 }
 
@@ -95,18 +94,20 @@
     display: flex;
     align-items: center;
     gap: 6px;
-
     background-color: #ffceb4;
     padding: 5px 8px;
     border-radius: 5px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 1rem;
+    color: #333333;
 }
 
-.restaurant-info p {
+.burgerhouse p {
+    font-family: 'Palanquin', sans-serif;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.2;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Palanquin';
     font-weight: bold;
 }
