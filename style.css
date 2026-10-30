@@ -20,13 +20,13 @@
 }
 
 .app {
-    width: 93px;
+    width: 110px;
     height: auto;
 }
 
 .menu {
-    width: 46px;
-    height: 46px;
+    width: 70px;
+    height: 70px;
     cursor: pointer;
 }
 
@@ -182,6 +182,10 @@
     margin-bottom: 20px;
 }
 
+.food-card:last-child{
+    margin-bottom: 40px;
+}
+
 .food-image {
     width: 275px;
     height: 160px;
@@ -324,7 +328,7 @@
     object-fit: contain;
 
     position: relative;
-    top: -2px;
+    top: -10px;
 
     flex-shrink: 0;
 }
